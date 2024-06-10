@@ -1,0 +1,428 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image: url("images/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 90vh;
+    position: relative;
+}
+
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity:0.74;
+    background-color: black;
+    position:absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 70vw;
+    justify-content:space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    z-index: 10;
+}
+
+nav img{
+    color: red;
+    width: 150px;
+    position:relative;
+    z-index: 10;
+}
+
+nav button{
+    position:relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 100px);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sepration{
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    font-weight: 400;
+    background-color: rgba(146, 143, 143, 0.249);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    padding: 3px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    font-size: 15px;
+    border-radius: 4px;
+    height: 45px;
+    width: 350px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(114, 109, 109, 0.937);
+    padding: 2px 10px;
+    color: white;
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+    color: white;
+    align-items: center;
+    padding: 90px;
+}
+
+.secimg{
+    position: relative;
+}
+
+.secimg img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+
+.first div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+    color: white;
+    align-items: center;
+    padding: 100px;
+}
+
+.secimg3{
+    position: relative;
+}
+
+.secimg3 img{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+}
+
+
+.secimg3 video{
+    position: absolute;
+    left: 17%;
+    top: 35px;
+    width: 22vw;
+
+}
+
+
+.third div{
+    display: flex;
+    flex-direction: column;
+}
+.third > div :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.third > div :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+
+.faq p{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.faq{
+    background-color: black;
+    color: white;
+}
+
+.faqbox:hover{
+    background-color:#414141;
+}
+
+.faqbox{
+    background-color:#2d2d2d;
+    color: white;
+    display: flex;
+    width: 70vw;
+    margin: 10px auto;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.R{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.sepration2{
+    margin-top: 80px;
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+}
+
+
+footer{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+    padding-top:25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px; 
+}
+
+.footer a{
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight:700;
+}
+
+.LL{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (min-width:375px){
+
+    nav img{
+        width: 90px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 35px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+    nav{
+        max-width: 90vw;
+        height: 100px;
+    }
+    .hero-button{
+        flex-direction: column;
+    }
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .secimg img{
+        width: 450px;
+    }
+
+    .secimg video{
+        width: 450px;
+    }
+
+    .third{
+        flex-wrap: wrap;
+    }
+    .secimg3 video{
+        top: 8px;
+        width: 50vw;
+    }
+    .secimg3 img{
+        position: relative;
+        z-index: 10;
+        width: 80vw;
+    }
+
+    .faq p {
+        font-size: 31px;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media only screen and (max-width:1250px){
+    .main{
+        background-size: cover;
+    }
+
+    nav{
+        max-width: 90vw;
+        height: 100px;
+    }
+    .hero-button{
+        flex-direction: column;
+    }
+
+    .first{
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .secimg img{
+        width: 450px;
+    }
+
+    .secimg video{
+        width: 445px;
+    }
+
+    .third{
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .secimg3 video{
+        top: 8px;
+        width: 30vw;
+    }
+    .secimg3 img{
+        position: relative;
+        z-index: 10;
+        width: 50vw;
+    }
+
+    .faq p {
+        font-size: 31px;
+    }
+
+
+}
+
